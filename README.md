@@ -1,5 +1,6 @@
 # jkenny264's notes repository 
 
+- [GitHub.com address for this page](https://github.com/jkenny264/notes)
 - [GitHub.io address for this page](https://jkenny264.github.io/notes/)
 - [GitHub.dev address for this page](https://github.dev/jkenny264/notes)
 
