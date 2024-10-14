@@ -1,4 +1,9 @@
-# Number row characters:
+# jkenny264's notes repository 
+
+- [GitHub.io address](https://jkenny264.github.io/notes/)
+- [CLI command notes](docs/cli.md)
+
+## Number row characters:
 - \~ - tilde
 - \! - exclamation mark
 - \@ - at symbol  
