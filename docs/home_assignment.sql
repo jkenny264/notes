@@ -43,17 +43,15 @@ LIMIT 1;
 
 -- Question 8: What color is the rectangle that extends the most to the right?
 -- Answer: #abcdef
-SELECT id, x+width AS "Right Edge Distance", color
+SELECT id, x + width AS "Right Edge Distance", color
 FROM rectangles
 ORDER BY x + width DESC
 LIMIT 1;
 
-
-
-
 -- Question 9: Find rectangle(s) with NULL color
-
-
+SELECT *
+FROM rectangles
+WHERE color IS NULL
 
 -- Question 10: List all the different colors
 
