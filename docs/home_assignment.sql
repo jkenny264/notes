@@ -11,27 +11,35 @@ SELECT COUNT(id)
 FROM rectangles;
 
 -- Question 3: What color is the widest rectangle?
--- Answer: 
+-- Answer: #abcdef
+SELECT color
+FROM rectangles
+ORDER BY width DESC
+LIMIT 1;
 
 -- Question 4: What color is the tallest rectangle?
--- Answer: 
-
-
+-- Answer: #ffffff
+SELECT color
+FROM rectangles
+ORDER BY height DESC
+LIMIT 1;
 
 -- Question 5: List all rectangles that are wider than they are tall
-
+SELECT *
+FROM rectangles
+WHERE width>height;
 
 
 -- Question 6: Calculate and select area of each rectangle
-SELECT id, width/height AS Area
+SELECT id, width*height AS area
 FROM rectangles;
- 
-
 
 -- Question 7: What color is the largest rectangle?
--- Answer: 
-
-
+-- Answer: #ffffff
+SELECT color
+FROM rectangles
+ORDER BY width*height DESC
+LIMIT 1;
 
 -- Question 8: What color is the rectangle that extends the most to the right?
 -- Answer: #abcdef
