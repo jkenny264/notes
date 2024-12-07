@@ -119,10 +119,13 @@ GROUP BY course_id;
 
 
 -- Bonus Task 1: List the number of assignments per semester
-
-
+SELECT semester, COUNT(id) AS 'number of assignments'
+from courses c
+JOIN assignments a ON c.course_id = a.course_id
+GROUP BY semester
 
 
 -- Bonus Task 2: Show the red component of all the RGB colors
-
-
+SELECT id, color, substr(color, 2,2) AS red_component
+from rectangles
+WHERE color Like '#%';
