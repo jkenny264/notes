@@ -54,7 +54,7 @@ FROM rectangles
 WHERE color IS NULL
 
 -- Question 10: List all the different colors
-
+ 
 
 
 -- Question 11: List all the different named colors
